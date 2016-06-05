@@ -206,8 +206,8 @@ int main(int argc, char **argv)
    std::cout << "angle "<< std::endl;
     std::cout <<th<< "and" <<thd<< std::endl;
 
-    //std::cout << "current position"<< std::endl;
-    //std::cout <<x<< "and" <<y<< std::endl;
+    std::cout << "current position"<< std::endl;
+    std::cout <<x<< "and" <<y<< std::endl;
     m.linear.x =  v;
     m.angular.z = w;
    // std::cout << "Data Sent "<< std::endl;
